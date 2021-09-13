@@ -1,0 +1,175 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:context=".tela_ist">
+
+    <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" tools:layout_editor_absoluteY="16dp"
+            tools:layout_editor_absoluteX="201dp">
+        <LinearLayout
+                android:orientation="vertical"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="#FFFF">
+
+            <TextView
+                    android:text="Infecções Sexualmente Transmissíveis"
+                    android:layout_marginTop="30dp"
+                    android:layout_gravity="center_horizontal"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:id="@+id/textView3"
+                    style="@style/Widget.AppCompat.TextView.SpinnerItem" android:textAllCaps="true"
+                    android:textSize="25sp"
+                    android:textAlignment="center"
+                    android:textStyle="bold"/>
+            <androidx.cardview.widget.CardView
+                    android:clickable="true"
+                    android:layout_marginTop="30dp"
+                    android:layout_width="318dp"
+                    android:layout_height="70dp"
+                    android:layout_gravity="center_horizontal"
+                    android:id="@+id/AIDS" app:cardCornerRadius="20dp" app:cardBackgroundColor="#42A2F6">>
+                <TextView
+                        android:text="AIDS"
+                        android:layout_gravity="center_horizontal"
+                        android:layout_marginTop="10dp"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:id="@+id/textSIFILIS" android:textSize="36sp"
+                        android:textColor="@color/white"
+                        android:textStyle="bold"
+                        android:background="#00FFFFFF"
+                        android:textColorHighlight="#00FFFFFF" android:editable="false"
+                />
+            </androidx.cardview.widget.CardView>
+
+            <androidx.cardview.widget.CardView
+                    android:clickable="true"
+                    android:layout_marginTop="20dp"
+                    android:layout_width="318dp"
+                    android:layout_height="70dp"
+                    android:layout_gravity="center_horizontal"
+                    android:id="@+id/SIFILIS" app:cardCornerRadius="20dp" app:cardBackgroundColor="#42A2F6">
+                <TextView
+                        android:text="SÍFILIS"
+                        android:layout_gravity="center_horizontal"
+                        android:layout_marginTop="10dp"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content" android:id="@+id/textAIDS" android:textSize="36sp"
+                        android:textColor="@color/white"
+                        android:textStyle="bold"
+                        android:background="#00FFFFFF"
+                        android:textColorHighlight="#00FFFFFF" android:editable="false"
+                />
+            </androidx.cardview.widget.CardView>
+
+            <androidx.cardview.widget.CardView
+                    android:clickable="true"
+                    android:layout_marginTop="20dp"
+                    android:layout_width="318dp"
+                    android:layout_height="70dp"
+                    android:layout_gravity="center_horizontal"
+                    android:id="@+id/GONORREIA" app:cardCornerRadius="20dp" app:cardBackgroundColor="#42A2F6">
+                <TextView
+                        android:text="GONORREIA"
+                        android:layout_gravity="center_horizontal"
+                        android:layout_marginTop="10dp"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content" android:id="@+id/textGono" android:textSize="36sp"
+                        android:textColor="@color/white"
+                        android:textStyle="bold"
+                        android:background="#00FFFFFF"
+                        android:textColorHighlight="#00FFFFFF" android:editable="false"
+                />
+            </androidx.cardview.widget.CardView>
+
+            <androidx.cardview.widget.CardView
+                    android:clickable="true"
+                    android:layout_marginTop="20dp"
+                    android:layout_width="318dp"
+                    android:layout_height="70dp"
+                    android:layout_gravity="center_horizontal"
+                    android:id="@+id/HPV" app:cardCornerRadius="20dp" app:cardBackgroundColor="#42A2F6">
+                <TextView
+                        android:text="HPV"
+                        android:layout_gravity="center_horizontal"
+                        android:layout_marginTop="10dp"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content" android:id="@+id/textHPV" android:textSize="36sp"
+                        android:textColor="@color/white"
+                        android:textStyle="bold"
+                        android:background="#00FFFFFF"
+                        android:textColorHighlight="#00FFFFFF" android:editable="false"
+                />
+            </androidx.cardview.widget.CardView>
+
+            <androidx.cardview.widget.CardView
+                    android:clickable="true"
+                    android:layout_marginTop="20dp"
+                    android:layout_width="318dp"
+                    android:layout_height="70dp"
+                    android:layout_gravity="center_horizontal"
+                    android:id="@+id/CLAMIDIA" app:cardCornerRadius="20dp" app:cardBackgroundColor="#42A2F6">
+                <TextView
+                        android:text="CLAMÍDIA"
+                        android:layout_gravity="center_horizontal"
+                        android:layout_marginTop="10dp"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content" android:id="@+id/textClamidia" android:textSize="36sp"
+                        android:textColor="@color/white"
+                        android:textStyle="bold"
+                        android:background="#00FFFFFF"
+                        android:textColorHighlight="#00FFFFFF" android:editable="false"
+                />
+            </androidx.cardview.widget.CardView>
+
+            <androidx.cardview.widget.CardView
+                    android:clickable="true"
+                    android:layout_marginTop="20dp"
+                    android:layout_width="318dp"
+                    android:layout_height="70dp"
+                    android:layout_gravity="center_horizontal"
+                    android:id="@+id/HERPES" app:cardCornerRadius="20dp" app:cardBackgroundColor="#42A2F6">
+                <TextView
+                        android:text="HERPES"
+                        android:layout_gravity="center_horizontal"
+                        android:layout_marginTop="10dp"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content" android:id="@+id/textHERPES" android:textSize="36sp"
+                        android:textColor="@color/white"
+                        android:textStyle="bold"
+                        android:background="#00FFFFFF"
+                        android:textColorHighlight="#00FFFFFF" android:editable="false"
+                />
+            </androidx.cardview.widget.CardView>
+
+            <androidx.cardview.widget.CardView
+                    android:clickable="true"
+                    android:layout_marginTop="20dp"
+                    android:layout_marginBottom="30dp"
+                    android:layout_width="318dp"
+                    android:layout_height="70dp"
+                    android:layout_gravity="center_horizontal"
+                    android:id="@+id/TRICOMONIASE" app:cardCornerRadius="20dp" app:cardBackgroundColor="#42A2F6">
+                <TextView
+                        android:text="TRICOMONIASE"
+                        android:layout_gravity="center_horizontal"
+                        android:layout_marginTop="10dp"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content" android:id="@+id/textTRICOMONIASE" android:textSize="36sp"
+                        android:textColor="@color/white"
+                        android:textStyle="bold"
+                        android:background="#00FFFFFF"
+                        android:textColorHighlight="#00FFFFFF" android:editable="false"
+                />
+            </androidx.cardview.widget.CardView>
+
+        </LinearLayout>
+    </ScrollView>
+</androidx.constraintlayout.widget.ConstraintLayout>

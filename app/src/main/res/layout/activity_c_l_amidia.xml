@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:context=".CLAmidia" android:background="#FFFFFF">
+
+    <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" tools:layout_editor_absoluteY="79dp"
+            tools:layout_editor_absoluteX="0dp">
+        <LinearLayout
+                android:orientation="vertical"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="#FFFF">
+            <TextView
+                    android:text="CLAMÍDIA"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_horizontal"
+                    android:layout_marginTop="30dp"
+                    android:textColor="@color/black"
+                    android:textSize="30dp"
+                    android:textStyle="bold"
+                    android:id="@+id/Paragrafo1"/>
+
+            <ImageView
+                    android:layout_gravity="center_horizontal"
+                    android:layout_width="438dp"
+                    android:layout_height="238dp"
+                    android:layout_marginTop="30dp"
+                    android:layout_marginBottom="20dp"
+                    app:srcCompat="@mipmap/ic_launcher_clamidia_home_foreground"
+                    android:id="@+id/imageView"/>
+
+            <TextView
+                    android:text="Clamídia é uma Infecção Sexualmente Transmissível (IST), que na maioria das vezes causa infecção nosórgãos genitais, mas pode afetar também a garganta e os olhos. Pode afetar homens e mulheres com vida sexual ativa.
+Não existem dados epidemiológicos no Brasil sobre a clamídia, porque não é uma doença de notificação obrigatória. Mas dados do Centro de Controle e Prevenção de Doenças dos EUA (CDC/2017) mostram que a maioria dos casos acontece em pessoas na faixa etária entre 15 e 24 anos."
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="15dp"
+                    android:textColor="@color/black"
+                    android:id="@+id/Paragrafo2"
+                    android:editable="false"
+                    style="@style/Widget.AppCompat.TextView.SpinnerItem"/>
+            <TextView
+                    android:text="Como é Transmitida?"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginTop="30dp"
+                    android:textSize="20dp"
+                    android:textStyle="bold"
+                    android:textColor="@color/black"
+                    android:id="@+id/Paragrafo3"
+                    style="@style/Widget.AppCompat.TextView.SpinnerItem"/>
+            <TextView
+                    android:text="A clamídia é transmitida por meio do contato sexual (anal, oral ou vaginal) ou pela forma congênita (infecção passada da mãe para o bebê durante a gestação).
+A clamídia não é transmitida por meio de transfusão sanguínea. Porém, se a pessoa infectada deseja doar sangue, deve informar ao profissional de saúde a presença da infecção.
+"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="15dp"
+                    android:textColor="@color/black"
+                    android:id="@+id/Paragrafo4"
+                    android:editable="false"
+                    style="@style/Widget.AppCompat.TextView.SpinnerItem"/>
+            <TextView
+                    android:text="Quais são as complicações?"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginTop="30dp"
+                    android:textSize="20dp"
+                    android:textStyle="bold"
+                    android:textColor="@color/black"
+                    android:id="@+id/Paragrafo5"
+                    style="@style/Widget.AppCompat.TextView.SpinnerItem"/>
+            <TextView
+                    android:text="Quando não tratada, a clamídia pode provocar algumas complicações, como:\n\n 1. Infertilidade (dificuldade para ter filhos).\n 2. Dor crônica na região pélvica (“pé da barriga”).\n 3. Dor durante as relações sexuais.\n 4. Gravidez tubária (quando ocorre nas trompas).\n 5. Complicações na gestação."
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginTop="10dp"
+                    android:textSize="15dp"
+                    android:textColor="@color/black"
+                    android:id="@+id/Paragrafo6"
+                    style="@style/Widget.AppCompat.TextView.SpinnerItem"/>
+
+            <TextView
+                    android:text="Sintomas"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginTop="30dp"
+                    android:textSize="20dp"
+                    android:textStyle="bold"
+                    android:textColor="@color/black"
+                    android:id="@+id/Paragrafo7"
+                    style="@style/Widget.AppCompat.TextView.SpinnerItem"/>
+            <TextView
+                    android:text=" A maioria dos casos da clamídia não apresenta sintomas. Quando presentes, os sintomas mais comuns são:\n\n 1. Corrimento amarelado ou claro.\n 2. Sangramento espontâneo ou durante as relações sexuais.\n 3. Dor ao urinar e/ou durante as relações sexuais e/ou no baixo ventre (pé da barriga).\n 4. Ardência ao urinar.\n 5. Corrimento uretral com a presença de pus.\n 6. Dor nos músculos e nas articulações.\n 7. Dor nos testículos."
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginBottom="60dp"
+                    android:textSize="15dp"
+                    android:textColor="@color/black"
+                    android:id="@+id/Paragrafo8"
+                    style="@style/Widget.AppCompat.TextView.SpinnerItem"/>
+
+        </LinearLayout>
+    </ScrollView>
+</androidx.constraintlayout.widget.ConstraintLayout>

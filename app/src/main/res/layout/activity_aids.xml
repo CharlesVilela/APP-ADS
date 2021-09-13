@@ -1,0 +1,157 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:context=".Aids" android:background="#FFFFFF">
+    <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" tools:layout_editor_absoluteY="79dp"
+            tools:layout_editor_absoluteX="0dp">
+        <LinearLayout
+                android:orientation="vertical"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="#FFFF">
+            <TextView
+                    android:text="AIDS"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_horizontal"
+                    android:layout_marginTop="30dp"
+                    android:textColor="@color/black"
+                    android:textSize="30dp"
+                    android:textStyle="bold"
+                    android:id="@+id/Paragrafo1"/>
+
+            <ImageView
+                    android:layout_width="395dp"
+                    android:layout_height="253dp"
+                    app:srcCompat="@mipmap/ic_launcher_aids_foreground"
+                    android:id="@+id/imageView2"/>
+
+            <TextView
+                    android:text="A AIDS, sigla em inglês para a Síndrome da Imunodeficiência Adquirida (Acquired Immunodeficiency Syndrome), é uma doença do sistema imunológico humano resultante da infecção pelo vírus HIV (Vírus da Imunodeficiência Humana - da sigla em inglês)."
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="15dp"
+                    android:textColor="@color/black"
+                    android:editable="false"
+                    style="@style/Widget.AppCompat.TextView.SpinnerItem"
+                    android:id="@+id/Paragrafo3"/>
+
+            <TextView
+                    android:text="A AIDS se caracteriza pelo enfraquecimento do sistema imunológico do corpo, com o organismo mais vulnerável ao aparecimento de doenças oportunistas que vão de um simples resfriado a infecções mais graves como tuberculose ou câncer. O próprio tratamento dessas doenças fica prejudicado com a presença do vírus HIV no organismo."
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="15dp"
+                    android:textColor="@color/black"
+                    android:editable="false"
+                    style="@style/Widget.AppCompat.TextView.SpinnerItem"
+                    android:id="@+id/Paragrafo4"/>
+
+            <TextView
+                    android:text="Sintomas"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="30dp"
+                    android:layout_marginLeft="10dp"
+                    android:textSize="20dp"
+                    android:textStyle="bold"
+                    android:textColor="@color/black"
+                    style="@style/Widget.AppCompat.TextView.SpinnerItem"
+                    android:id="@+id/Paragrafo5"/>
+            <TextView
+                    android:text=" 1.Febre persistente.\n 2. Tosse seca prolongada e garganta arranhada.\n 3. Suores noturnos.\n 4. Inchaço dos gânglios linfáticos durante mais de 3 meses.\n 5. Dor de cabeça e dificuldade de concentração.\n 6. Dor nos músculos e nas articulações.\n 7. Cansaço, fadiga e perda de energia.\n 8. Rápida perda de peso."
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginTop="10dp"
+                    android:textSize="15dp"
+                    android:textColor="@color/black"
+                    style="@style/Widget.AppCompat.TextView.SpinnerItem"
+                    android:id="@+id/Paragrafo6"/>
+            <TextView
+                    android:text="O vírus HIV, dentro do corpo humano, começa a atacar o sistema imunológico ligando-se a um componente da membrana dessa célula, o CD4, penetrando no seu interior para se multiplicar. Com isso, o sistema de defesa vai pouco a pouco perdendo a capacidade de responder adequadamente, tornando o corpo mais vulnerável a doenças. Quando o organismo não tem mais forças para combater esses agentes externos, a pessoa começar a ficar doente mais facilmente e então se diz que tem AIDS. Esse momento geralmente marca o início do tratamento com os medicamentos antirretrovirais, que combatem a reprodução do vírus."
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="15dp"
+                    android:textColor="@color/black"
+                    android:editable="false"
+                    style="@style/Widget.AppCompat.TextView.SpinnerItem"
+                    android:id="@+id/Paragrafo7"/>
+
+            <TextView
+                    android:text="Métodos de Transmissão"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="30dp"
+                    android:layout_marginLeft="10dp"
+                    android:textSize="20dp"
+                    android:textStyle="bold"
+                    android:textColor="@color/black"
+                    android:id="@+id/Paragrafo8"
+                    style="@style/Widget.AppCompat.TextView.SpinnerItem"/>
+            <TextView
+                    android:text=" 1. Relação Sexual com a Pessoa infactada sem uso o de perservativo.\n 2. A doença pode ser transmitida da mãe para o bebê por meio da placeta, parto e amamentação.\n 3. Contato com snague infactado.\n 4. Uso de seringa ou agulha ja utilizado por uma pessoa infectada.\n 5. Transfusão de sangue da pessoa infectada.\n 6. Uso de objetos cortantes não esterelizados."
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginTop="10dp"
+                    android:textSize="15dp"
+                    android:textColor="@color/black"
+                    style="@style/Widget.AppCompat.TextView.SpinnerItem"
+                    android:id="@+id/Paragrafo9"/>
+
+            <TextView
+                    android:text="Métodos de Prevenção"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="30dp"
+                    android:layout_marginLeft="10dp"
+                    android:textSize="20dp"
+                    android:textStyle="bold"
+                    android:textColor="@color/black"
+                    android:id="@+id/Paragrafo10"
+                    style="@style/Widget.AppCompat.TextView.SpinnerItem"/>
+
+            <TextView
+                    android:text=" 1. Sempre utilizar preservativo nas relações sexuais.\n 2. Optar por seringas e agulhas descartáveis.\n 3. Utilizar objetos cortantes descartáveis ou esterilizados.\n 4. Usar luvas para contato com sangue ou fluidos corporais."
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginTop="10dp"
+                    android:textSize="15dp"
+                    android:textColor="@color/black"
+                    style="@style/Widget.AppCompat.TextView.SpinnerItem"
+                    android:id="@+id/Paragrafo11"/>
+
+            <TextView
+                    android:text="Métodos de Prevenção."
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="30dp"
+                    android:layout_marginLeft="10dp"
+                    android:textSize="20dp"
+                    android:textStyle="bold"
+                    android:textColor="@color/black"
+                    style="@style/Widget.AppCompat.TextView.SpinnerItem"
+                    android:id="@+id/Paragrafo12"/>
+
+            <TextView
+                    android:text="Durante a infecção inicial, uma pessoa pode passar por um breve período doente, com sintomas semelhantes aos da gripe. Normalmente isto é seguido por um período prolongado sem qualquer outro sintoma. À medida que a doença progride, ela interfere mais e mais no sistema imunológico, tornando a pessoa muito mais propensa a ter outros tipos de doenças oportunistas, que geralmente não afetam as pessoas com um sistema imunológico saudável."
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="15dp"
+                    android:layout_marginBottom="30dp"
+                    android:textColor="@color/black"
+                    android:editable="false"
+                    style="@style/Widget.AppCompat.TextView.SpinnerItem"
+                    android:id="@+id/Paragrafo13"/>
+
+
+        </LinearLayout>
+    </ScrollView>
+</androidx.constraintlayout.widget.ConstraintLayout>

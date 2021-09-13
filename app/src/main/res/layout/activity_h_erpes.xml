@@ -1,0 +1,162 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:context=".HErpes" android:background="#FFFFFF">
+
+    <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" tools:layout_editor_absoluteY="79dp"
+            tools:layout_editor_absoluteX="0dp">
+        <LinearLayout
+                android:orientation="vertical"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="#FFFF">
+            <TextView
+                    android:text="HERPES GENITAL"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_horizontal"
+                    android:layout_marginTop="30dp"
+                    android:textColor="@color/black"
+                    android:textSize="30dp"
+                    android:textStyle="bold"
+                    android:id="@+id/Paragrafo1"/>
+
+            <ImageView
+                    android:layout_gravity="center_horizontal"
+                    android:layout_width="438dp"
+                    android:layout_height="238dp"
+                    android:layout_marginTop="30dp"
+                    android:layout_marginBottom="20dp"
+                    app:srcCompat="@mipmap/ic_launcher_herpes_home_foreground"
+                    android:id="@+id/imageView4"/>
+
+            <TextView
+                    android:text="O Herpes genital é uma doença sexualmente transmissível, de alta prevalência, causada pelo vírus do herpes simples (HSV), que provoca lesões na pele e nas mucosas dos órgãos genitais masculinos e femininos. Uma vez dentro de um organismo, dificilmente esse vírus será eliminado, passando por períodos de remissão (adormecimento do vírus, sem causar sintomas) e recidivas (manifestação da doença clinicamente)."
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="15dp"
+                    android:textColor="@color/black"
+                    android:id="@+id/Paragrafo2"
+                    android:editable="false"
+                    style="@style/Widget.AppCompat.TextView.SpinnerItem"/>
+
+            <TextView
+                    android:text="Existem dois tipos de HSV:"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginTop="30dp"
+                    android:textSize="20dp"
+                    android:textStyle="bold"
+                    android:textColor="@color/black"
+                    android:editable="false"
+                    style="@style/Widget.AppCompat.TextView.SpinnerItem"
+                    android:id="@+id/Paragrafo3"/>
+
+            <TextView
+                    android:text="O tipo 1, responsável pelo herpes facial, manifesta-se principalmente na região da boca, nariz e olhos.\n\nO tipo 2, que acomete principalmente a região genital, ânus e nádegas."
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="15dp"
+                    android:textColor="@color/black"
+                    android:id="@+id/Paragrafo4"
+                    android:editable="false"
+                    style="@style/Widget.AppCompat.TextView.SpinnerItem"/>
+
+
+            <TextView
+                    android:text="Como é Transmitida?"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginTop="30dp"
+                    android:textSize="20dp"
+                    android:textStyle="bold"
+                    android:textColor="@color/black"
+                    android:id="@+id/Paragrafo5"
+                    style="@style/Widget.AppCompat.TextView.SpinnerItem"/>
+
+            <TextView
+                    android:text=" 1. O herpes é transmitido através do contato com a pele ou mucosa infectada, secreções da vagina, pênis ou ânus ou fluido oral de alguém infectado pelo vírus. Isso inclui tocar, beijar e contato sexual (vaginal, anal, peniano e oral).
+                    \n\n 2. Áreas úmidas da boca, garganta, ânus, vulva, vagina e olhos são facilmente infectadas. O herpes pode ser transmitido de um parceiro para outro ou de uma parte do seu corpo para outra parte.
+                    \n\n 3. Se um parceiro tem herpes labial oral, ele / ela pode transmitir o vírus durante o sexo oral e causar herpes genital.
+                    \n\n 4. O herpes é mais facilmente transmitido quando há feridas abertas, mas também pode ser transmitido antes que as bolhas realmente se formem ou mesmo de pessoas sem sintomas.
+                    \n\n 5. É muito improvável que o herpes se espalhe por assentos sanitários, piscinas, banheiras, banheiras de hidromassagem ou toalhas úmidas. Uma mãe infectada pode transmitir o vírus para o bebê durante ou após o parto."
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="15dp"
+                    android:textColor="@color/black"
+                    android:id="@+id/Paragrafo6"
+                    android:editable="false"
+                    style="@style/Widget.AppCompat.TextView.SpinnerItem"/>
+
+            <TextView
+                    android:text="É importante lembrar que a infecção cruzada dos vírus herpes tipo 1 e 2 pode acontecer se houver contato oral-genital. Isto é, pode-se pegar herpes genital na boca ou herpes oral na região genital.
+\n\nO período de incubação do vírus varia de 10 a 15 dias após a relação sexual com o/a portador/a do vírus, que pode ser transmitido mesmo na ausência das lesões cutâneas ou quando elas já estão cicatrizadas.
+\n\n As lesões provocadas pelo vírus apresentam-se como pequenas vesículas que se distribuem em forma de buquê nos genitais masculinos e femininos. Às vezes, elas estão presentes dentro do meato uretral ou, por contiguidade, podem atingir a região anal e perianal, de onde se disseminam se o sistema imunológico estiver debilitado.
+Na grande maioria das vezes as lesões do herpes genital costumam regredir espontaneamente, mesmo sem tratamento.
+"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="15dp"
+                    android:textColor="@color/black"
+                    android:id="@+id/Paragrafo7"
+                    android:editable="false"
+                    style="@style/Widget.AppCompat.TextView.SpinnerItem"/>
+
+            <TextView
+                    android:text="Sintomas"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginTop="30dp"
+                    android:textSize="20dp"
+                    android:textStyle="bold"
+                    android:textColor="@color/black"
+                    android:id="@+id/Paragrafo8"
+                    style="@style/Widget.AppCompat.TextView.SpinnerItem"/>
+            <TextView
+                    android:text=" 1. Ardor.\n 2. Prurido (coceira).\n 3. Formigamento e gânglios inflamados.\n 4. As manchas vermelhas que aparecem alguns dias mais tarde evoluem para vesículas agrupadas em forma de buquê."
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginTop="10dp"
+                    android:textSize="15dp"
+                    android:textColor="@color/black"
+                    android:id="@+id/Paragrafo9"
+                    style="@style/Widget.AppCompat.TextView.SpinnerItem"/>
+
+            <TextView
+                    android:text="Como se Previnir?"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginTop="30dp"
+                    android:textSize="20dp"
+                    android:textStyle="bold"
+                    android:textColor="@color/black"
+                    android:id="@+id/Paragrafo10"
+                    style="@style/Widget.AppCompat.TextView.SpinnerItem"/>
+
+            <TextView
+                    android:text="A melhor maneira de prevenir o herpes genital é através do uso de preservativo em todas as relações sexuais. Lembrando que apesar de as lesões regredirem espontaneamente nas pessoas com resposta imune satisfatória e as recidivas serem menos graves do que a primeira infecção, elas podem continuar transmitindo o vírus do herpes genital.
+\n\nO Herpes genital na gravidez pode provocar aborto espontâneo, uma vez que existe a transmissão vertical do vírus, sendo uma doença congênita (que passa da mãe para o feto), extremamente grave e letal. Mesmo que a mulher não tenha lesões visíveis, deve informar aos profissionais de saúde que é portadora do vírus do herpes genital se pretende engravidar."
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginBottom="30dp"
+                    android:textSize="15dp"
+                    android:textColor="@color/black"
+                    android:id="@+id/Paragrafo11"
+                    style="@style/Widget.AppCompat.TextView.SpinnerItem"/>
+
+        </LinearLayout>
+    </ScrollView>
+</androidx.constraintlayout.widget.ConstraintLayout>

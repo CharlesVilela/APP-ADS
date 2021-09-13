@@ -1,0 +1,883 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:context=".lista_clinicas">
+
+    <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintBottom_toBottomOf="parent">
+
+        <LinearLayout
+                android:orientation="vertical"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="#FFFF">
+            <TextView
+                    android:text="Clínicas"
+                    android:layout_marginTop="30dp"
+                    android:layout_gravity="center_horizontal"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:id="@+id/textView"
+                    style="@style/Widget.AppCompat.TextView.SpinnerItem"
+                    android:textAllCaps="true"
+                    android:textSize="25sp"
+                    android:textAlignment="center"
+                    android:textStyle="bold"/>
+
+            <androidx.cardview.widget.CardView
+                    android:layout_width="match_parent"
+                    android:layout_height="100dp"
+                    android:layout_marginTop="20dp"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginRight="10dp"
+                    app:cardBackgroundColor="#42A2F6"
+                    app:cardCornerRadius="30dp"
+                    app:contentPadding="5dp" >
+
+                <LinearLayout
+                        android:orientation="vertical"
+                        android:layout_width="369dp"
+                        android:layout_height="89dp"
+                        android:layout_marginLeft="5dp"
+                        android:background="#42A2F6">
+                    <TextView
+                            android:id="@+id/nome1"
+                            android:text="CEORGA"
+                            android:textSize="18dp"
+                            android:textColor="@color/white"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="5dp"
+                            style="@style/Widget.AppCompat.TextView.SpinnerItem"/>
+                    <TextView
+                            android:id="@+id/numero1"
+                            android:text="Fone: (87) 9622-2319"
+                            android:textSize="18dp"
+                            android:textColor="@color/white"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="5dp"
+                            style="@style/Widget.AppCompat.TextView.SpinnerItem"/>
+                    <TextView
+                            android:id="@+id/local1"
+                            android:text="Rua Melo Peixoto, 228, Garanhuns"
+                            android:textSize="18dp"
+                            android:textColor="@color/white"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="5dp"
+                            style="@style/Widget.AppCompat.TextView.SpinnerItem"/>
+                </LinearLayout>
+            </androidx.cardview.widget.CardView>
+
+            <androidx.cardview.widget.CardView
+                    android:layout_width="match_parent"
+                    android:layout_height="100dp"
+                    android:layout_marginTop="20dp"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginRight="10dp"
+                    app:cardBackgroundColor="#42A2F6"
+                    app:cardCornerRadius="30dp"
+                    app:contentPadding="5dp" >
+
+                <LinearLayout
+                        android:orientation="vertical"
+                        android:layout_width="369dp"
+                        android:layout_height="89dp"
+                        android:layout_marginLeft="5dp"
+                        android:background="#42A2F6">
+                    <TextView
+                            android:id="@+id/nome2"
+                            android:text="Vitalecer Clínica"
+                            android:textSize="18dp"
+                            android:textColor="@color/white"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="5dp"
+                            style="@style/Widget.AppCompat.TextView.SpinnerItem"/>
+                    <TextView
+                            android:id="@+id/numero2"
+                            android:text="Fone: (87) 3025-0911"
+                            android:textSize="18dp"
+                            android:textColor="@color/white"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="5dp"
+                            android:bufferType="normal"
+                            style="@style/Widget.AppCompat.TextView.SpinnerItem"/>
+                    <TextView
+                            android:id="@+id/local2"
+                            android:text="Rua, Av. Frei Caneca, 219, Garanhuns"
+                            android:textSize="18dp"
+                            android:textColor="@color/white"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="5dp"
+                            style="@style/Widget.AppCompat.TextView.SpinnerItem"/>
+                </LinearLayout>
+            </androidx.cardview.widget.CardView>
+
+            <androidx.cardview.widget.CardView
+                    android:layout_width="match_parent"
+                    android:layout_height="100dp"
+                    android:layout_marginTop="20dp"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginRight="10dp"
+                    app:cardBackgroundColor="#42A2F6"
+                    app:cardCornerRadius="30dp"
+                    app:contentPadding="5dp" >
+
+                <LinearLayout
+                        android:orientation="vertical"
+                        android:layout_width="369dp"
+                        android:layout_height="89dp"
+                        android:layout_marginLeft="5dp"
+                        android:background="#42A2F6">
+                    <TextView
+                            android:id="@+id/nome3"
+                            android:text="Dr. Fabiano de Azevedo Pontes"
+                            android:textSize="18dp"
+                            android:textColor="@color/white"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="5dp"
+                            style="@style/Widget.AppCompat.TextView.SpinnerItem"/>
+                    <TextView
+                            android:id="@+id/numero3"
+                            android:text="Fone: (87) 3761-1690"
+                            android:textSize="18dp"
+                            android:textColor="@color/white"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="5dp"
+                            android:bufferType="normal"
+                            style="@style/Widget.AppCompat.TextView.SpinnerItem"/>
+                    <TextView
+                            android:id="@+id/local3"
+                            android:text="Av. Gonçalves Maia, 546, Garanhuns"
+                            android:textSize="18dp"
+                            android:textColor="@color/white"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="5dp"
+                            style="@style/Widget.AppCompat.TextView.SpinnerItem"/>
+                </LinearLayout>
+            </androidx.cardview.widget.CardView>
+
+            <androidx.cardview.widget.CardView
+                    android:layout_width="match_parent"
+                    android:layout_height="100dp"
+                    android:layout_marginTop="20dp"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginRight="10dp"
+                    app:cardBackgroundColor="#42A2F6"
+                    app:cardCornerRadius="30dp"
+                    app:contentPadding="5dp" >
+
+                <LinearLayout
+                        android:orientation="vertical"
+                        android:layout_width="369dp"
+                        android:layout_height="89dp"
+                        android:layout_marginLeft="5dp"
+                        android:background="#42A2F6">
+                    <TextView
+                            android:id="@+id/nome4"
+                            android:text="CTA/COAS"
+                            android:textSize="18dp"
+                            android:textColor="@color/white"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="5dp"
+                            style="@style/Widget.AppCompat.TextView.SpinnerItem"/>
+                    <TextView
+                            android:id="@+id/numero4"
+                            android:text="Fone: (87)3762 7054"
+                            android:textSize="18dp"
+                            android:textColor="@color/white"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="5dp"
+                            android:bufferType="normal"
+                            style="@style/Widget.AppCompat.TextView.SpinnerItem"/>
+                    <TextView
+                            android:id="@+id/local4"
+                            android:text="Rua Dom José, 120, Garanhuns"
+                            android:textSize="18dp"
+                            android:textColor="@color/white"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="5dp"
+                            style="@style/Widget.AppCompat.TextView.SpinnerItem"/>
+                </LinearLayout>
+            </androidx.cardview.widget.CardView>
+
+            <androidx.cardview.widget.CardView
+                    android:layout_width="match_parent"
+                    android:layout_height="100dp"
+                    android:layout_marginTop="20dp"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginRight="10dp"
+                    app:cardBackgroundColor="#42A2F6"
+                    app:cardCornerRadius="30dp"
+                    app:contentPadding="5dp" >
+
+                <LinearLayout
+                        android:orientation="vertical"
+                        android:layout_width="369dp"
+                        android:layout_height="89dp"
+                        android:layout_marginLeft="5dp"
+                        android:background="#42A2F6">
+                    <TextView
+                            android:id="@+id/nome5"
+                            android:text="CTA SAE Garanhuns"
+                            android:textSize="18dp"
+                            android:textColor="@color/white"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="5dp"
+                            style="@style/Widget.AppCompat.TextView.SpinnerItem"/>
+                    <TextView
+                            android:id="@+id/numero5"
+                            android:text="Fone: (87) 3762-5308"
+                            android:textSize="18dp"
+                            android:textColor="@color/white"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="5dp"
+                            android:bufferType="normal"
+                            style="@style/Widget.AppCompat.TextView.SpinnerItem"/>
+                    <TextView
+                            android:id="@+id/local5"
+                            android:text="Av. Euclídes Dourado, 923, Garanhuns"
+                            android:textSize="18dp"
+                            android:textColor="@color/white"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="5dp"
+                            style="@style/Widget.AppCompat.TextView.SpinnerItem"/>
+                </LinearLayout>
+            </androidx.cardview.widget.CardView>
+
+            <androidx.cardview.widget.CardView
+                    android:layout_width="match_parent"
+                    android:layout_height="100dp"
+                    android:layout_marginTop="20dp"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginRight="10dp"
+                    app:cardBackgroundColor="#42A2F6"
+                    app:cardCornerRadius="30dp"
+                    app:contentPadding="5dp" >
+
+                <LinearLayout
+                        android:orientation="vertical"
+                        android:layout_width="369dp"
+                        android:layout_height="89dp"
+                        android:layout_marginLeft="5dp"
+                        android:background="#42A2F6">
+                    <TextView
+                            android:id="@+id/nome6"
+                            android:text="Clinical center"
+                            android:textSize="18dp"
+                            android:textColor="@color/white"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="5dp"
+                            style="@style/Widget.AppCompat.TextView.SpinnerItem"/>
+                    <TextView
+                            android:id="@+id/numero6"
+                            android:text="Fone: 9679-7949"
+                            android:textSize="18dp"
+                            android:textColor="@color/white"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="5dp"
+                            android:bufferType="normal"
+                            style="@style/Widget.AppCompat.TextView.SpinnerItem"/>
+                    <TextView
+                            android:id="@+id/local6"
+                            android:text="Avenida Frei Caneca, 100 sala 17,Garanhuns"
+                            android:textSize="18dp"
+                            android:textColor="@color/white"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="5dp"
+                            style="@style/Widget.AppCompat.TextView.SpinnerItem"/>
+                </LinearLayout>
+            </androidx.cardview.widget.CardView>
+
+            <androidx.cardview.widget.CardView
+                    android:layout_width="match_parent"
+                    android:layout_height="100dp"
+                    android:layout_marginTop="20dp"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginRight="10dp"
+                    app:cardBackgroundColor="#42A2F6"
+                    app:cardCornerRadius="30dp"
+                    app:contentPadding="5dp" >
+
+                <LinearLayout
+                        android:orientation="vertical"
+                        android:layout_width="369dp"
+                        android:layout_height="89dp"
+                        android:layout_marginLeft="5dp"
+                        android:background="#42A2F6">
+                    <TextView
+                            android:id="@+id/nome7"
+                            android:text="Centro Médico 149"
+                            android:textSize="18dp"
+                            android:textColor="@color/white"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="5dp"
+                            style="@style/Widget.AppCompat.TextView.SpinnerItem"/>
+                    <TextView
+                            android:id="@+id/numero7"
+                            android:text="Fone: "
+                            android:textSize="18dp"
+                            android:textColor="@color/white"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="5dp"
+                            android:bufferType="normal"
+                            style="@style/Widget.AppCompat.TextView.SpinnerItem"/>
+                    <TextView
+                            android:id="@+id/local7"
+                            android:text="Rua Frei Caneca, 149, Garanhuns"
+                            android:textSize="18dp"
+                            android:textColor="@color/white"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="5dp"
+                            style="@style/Widget.AppCompat.TextView.SpinnerItem"/>
+                </LinearLayout>
+            </androidx.cardview.widget.CardView>
+
+            <androidx.cardview.widget.CardView
+                    android:layout_width="match_parent"
+                    android:layout_height="100dp"
+                    android:layout_marginTop="20dp"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginRight="10dp"
+                    app:cardBackgroundColor="#42A2F6"
+                    app:cardCornerRadius="30dp"
+                    app:contentPadding="5dp" >
+
+                <LinearLayout
+                        android:orientation="vertical"
+                        android:layout_width="369dp"
+                        android:layout_height="89dp"
+                        android:layout_marginLeft="5dp"
+                        android:background="#42A2F6">
+                    <TextView
+                            android:id="@+id/nome8"
+                            android:text="Clínica Toco Ginecológica"
+                            android:textSize="18dp"
+                            android:textColor="@color/white"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="5dp"
+                            style="@style/Widget.AppCompat.TextView.SpinnerItem"/>
+                    <TextView
+                            android:id="@+id/numero8"
+                            android:text="Fone: (87) 3761-1964"
+                            android:textSize="18dp"
+                            android:textColor="@color/white"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="5dp"
+                            android:bufferType="normal"
+                            style="@style/Widget.AppCompat.TextView.SpinnerItem"/>
+                    <TextView
+                            android:id="@+id/local8"
+                            android:text="R. Doutor José Mariano, 334, Garanhuns"
+                            android:textSize="18dp"
+                            android:textColor="@color/white"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="5dp"
+                            style="@style/Widget.AppCompat.TextView.SpinnerItem"/>
+                </LinearLayout>
+            </androidx.cardview.widget.CardView>
+
+            <androidx.cardview.widget.CardView
+                    android:layout_width="match_parent"
+                    android:layout_height="100dp"
+                    android:layout_marginTop="20dp"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginRight="10dp"
+                    app:cardBackgroundColor="#42A2F6"
+                    app:cardCornerRadius="30dp"
+                    app:contentPadding="5dp" >
+
+                <LinearLayout
+                        android:orientation="vertical"
+                        android:layout_width="369dp"
+                        android:layout_height="89dp"
+                        android:layout_marginLeft="5dp"
+                        android:background="#42A2F6">
+                    <TextView
+                            android:id="@+id/nome9"
+                            android:text="Clínica de ginecologia"
+                            android:textSize="18dp"
+                            android:textColor="@color/white"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="5dp"
+                            style="@style/Widget.AppCompat.TextView.SpinnerItem"/>
+                    <TextView
+                            android:id="@+id/numero9"
+                            android:text="Fone: (87) 999807842"
+                            android:textSize="18dp"
+                            android:textColor="@color/white"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="5dp"
+                            android:bufferType="normal"
+                            style="@style/Widget.AppCompat.TextView.SpinnerItem"/>
+                    <TextView
+                            android:id="@+id/local9"
+                            android:text="Av. Rui Barbosa, 1401 - Heliópolis"
+                            android:textSize="18dp"
+                            android:textColor="@color/white"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="5dp"
+                            style="@style/Widget.AppCompat.TextView.SpinnerItem"/>
+                </LinearLayout>
+            </androidx.cardview.widget.CardView>
+
+            <androidx.cardview.widget.CardView
+                    android:layout_width="match_parent"
+                    android:layout_height="100dp"
+                    android:layout_marginTop="20dp"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginRight="10dp"
+                    app:cardBackgroundColor="#42A2F6"
+                    app:cardCornerRadius="30dp"
+                    app:contentPadding="5dp" >
+
+                <LinearLayout
+                        android:orientation="vertical"
+                        android:layout_width="369dp"
+                        android:layout_height="89dp"
+                        android:layout_marginLeft="5dp"
+                        android:background="#42A2F6">
+                    <TextView
+                            android:id="@+id/nome10"
+                            android:text="Uro clínica garanhuns"
+                            android:textSize="18dp"
+                            android:textColor="@color/white"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="5dp"
+                            style="@style/Widget.AppCompat.TextView.SpinnerItem"/>
+                    <TextView
+                            android:id="@+id/numero10"
+                            android:text="Fone: (87) 3761-0068"
+                            android:textSize="18dp"
+                            android:textColor="@color/white"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="5dp"
+                            android:bufferType="normal"
+                            style="@style/Widget.AppCompat.TextView.SpinnerItem"/>
+                    <TextView
+                            android:id="@+id/local10"
+                            android:text="R. Ernesto Dourado, 654, Garanhuns"
+                            android:textSize="18dp"
+                            android:textColor="@color/white"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="5dp"
+                            style="@style/Widget.AppCompat.TextView.SpinnerItem"/>
+                </LinearLayout>
+            </androidx.cardview.widget.CardView>
+
+            <androidx.cardview.widget.CardView
+                    android:layout_width="match_parent"
+                    android:layout_height="100dp"
+                    android:layout_marginTop="20dp"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginRight="10dp"
+                    app:cardBackgroundColor="#42A2F6"
+                    app:cardCornerRadius="30dp"
+                    app:contentPadding="5dp" >
+
+                <LinearLayout
+                        android:orientation="vertical"
+                        android:layout_width="369dp"
+                        android:layout_height="89dp"
+                        android:layout_marginLeft="5dp"
+                        android:background="#42A2F6">
+                    <TextView
+                            android:id="@+id/nome11"
+                            android:text="Antônio Alberto Muniz Coelho"
+                            android:textSize="18dp"
+                            android:textColor="@color/white"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="5dp"
+                            style="@style/Widget.AppCompat.TextView.SpinnerItem"/>
+                    <TextView
+                            android:id="@+id/numero11"
+                            android:text="Fone: (87) 3761-1870"
+                            android:textSize="18dp"
+                            android:textColor="@color/white"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="5dp"
+                            android:bufferType="normal"
+                            style="@style/Widget.AppCompat.TextView.SpinnerItem"/>
+                    <TextView
+                            android:id="@+id/local11"
+                            android:text="Av. Gonçalves Maia, 514 - Heliópolis"
+                            android:textSize="18dp"
+                            android:textColor="@color/white"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="5dp"
+                            style="@style/Widget.AppCompat.TextView.SpinnerItem"/>
+                </LinearLayout>
+            </androidx.cardview.widget.CardView>
+
+            <androidx.cardview.widget.CardView
+                    android:layout_width="match_parent"
+                    android:layout_height="100dp"
+                    android:layout_marginTop="20dp"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginRight="10dp"
+                    app:cardBackgroundColor="#42A2F6"
+                    app:cardCornerRadius="30dp"
+                    app:contentPadding="5dp" >
+
+                <LinearLayout
+                        android:orientation="vertical"
+                        android:layout_width="369dp"
+                        android:layout_height="89dp"
+                        android:layout_marginLeft="5dp"
+                        android:background="#42A2F6">
+                    <TextView
+                            android:id="@+id/nome12"
+                            android:text="Dra Mirelly Vaz . Ginecologia"
+                            android:textSize="18dp"
+                            android:textColor="@color/white"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="5dp"
+                            style="@style/Widget.AppCompat.TextView.SpinnerItem"/>
+                    <TextView
+                            android:id="@+id/numero12"
+                            android:text="Fone: "
+                            android:textSize="18dp"
+                            android:textColor="@color/white"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="5dp"
+                            android:bufferType="normal"
+                            style="@style/Widget.AppCompat.TextView.SpinnerItem"/>
+                    <TextView
+                            android:id="@+id/local12"
+                            android:text="Av. Frei Caneca, 130 - Heliópolis, Garanhuns"
+                            android:textSize="18dp"
+                            android:textColor="@color/white"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="5dp"
+                            style="@style/Widget.AppCompat.TextView.SpinnerItem"/>
+                </LinearLayout>
+            </androidx.cardview.widget.CardView>
+
+            <androidx.cardview.widget.CardView
+                    android:layout_width="match_parent"
+                    android:layout_height="100dp"
+                    android:layout_marginTop="20dp"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginRight="10dp"
+                    app:cardBackgroundColor="#42A2F6"
+                    app:cardCornerRadius="30dp"
+                    app:contentPadding="5dp" >
+
+                <LinearLayout
+                        android:orientation="vertical"
+                        android:layout_width="369dp"
+                        android:layout_height="89dp"
+                        android:layout_marginLeft="5dp"
+                        android:background="#42A2F6">
+                    <TextView
+                            android:id="@+id/nome13"
+                            android:text="Consultório Médico Dra. Ylana Falcão"
+                            android:textSize="18dp"
+                            android:textColor="@color/white"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="5dp"
+                            style="@style/Widget.AppCompat.TextView.SpinnerItem"/>
+                    <TextView
+                            android:id="@+id/numero13"
+                            android:text="Fone: (87) 99999-7441"
+                            android:textSize="18dp"
+                            android:textColor="@color/white"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="5dp"
+                            android:bufferType="normal"
+                            style="@style/Widget.AppCompat.TextView.SpinnerItem"/>
+                    <TextView
+                            android:id="@+id/local13"
+                            android:text="Av Frei Caneca, 22, Garanhuns"
+                            android:textSize="18dp"
+                            android:textColor="@color/white"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="5dp"
+                            style="@style/Widget.AppCompat.TextView.SpinnerItem"/>
+                </LinearLayout>
+            </androidx.cardview.widget.CardView>
+
+            <androidx.cardview.widget.CardView
+                    android:layout_width="match_parent"
+                    android:layout_height="100dp"
+                    android:layout_marginTop="20dp"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginRight="10dp"
+                    app:cardBackgroundColor="#42A2F6"
+                    app:cardCornerRadius="30dp"
+                    app:contentPadding="5dp" >
+
+                <LinearLayout
+                        android:orientation="vertical"
+                        android:layout_width="369dp"
+                        android:layout_height="89dp"
+                        android:layout_marginLeft="5dp"
+                        android:background="#42A2F6">
+                    <TextView
+                            android:id="@+id/nome14"
+                            android:text="Bartolomeu Magno Souto Quidute"
+                            android:textSize="18dp"
+                            android:textColor="@color/white"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="5dp"
+                            style="@style/Widget.AppCompat.TextView.SpinnerItem"/>
+                    <TextView
+                            android:id="@+id/numero14"
+                            android:text="Fone: (87) 3761-1964"
+                            android:textSize="18dp"
+                            android:textColor="@color/white"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="5dp"
+                            android:bufferType="normal"
+                            style="@style/Widget.AppCompat.TextView.SpinnerItem"/>
+                    <TextView
+                            android:id="@+id/local14"
+                            android:text="R. Dr. José Mariano, 334, Garanhuns"
+                            android:textSize="18dp"
+                            android:textColor="@color/white"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="5dp"
+                            style="@style/Widget.AppCompat.TextView.SpinnerItem"/>
+                </LinearLayout>
+            </androidx.cardview.widget.CardView>
+
+            <androidx.cardview.widget.CardView
+                    android:layout_width="match_parent"
+                    android:layout_height="100dp"
+                    android:layout_marginTop="20dp"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginRight="10dp"
+                    app:cardBackgroundColor="#42A2F6"
+                    app:cardCornerRadius="30dp"
+                    app:contentPadding="5dp" >
+
+                <LinearLayout
+                        android:orientation="vertical"
+                        android:layout_width="369dp"
+                        android:layout_height="89dp"
+                        android:layout_marginLeft="5dp"
+                        android:background="#42A2F6">
+                    <TextView
+                            android:id="@+id/nome15"
+                            android:text="Consultório Dr Genaro Braga de Almeida"
+                            android:textSize="18dp"
+                            android:textColor="@color/white"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="5dp"
+                            style="@style/Widget.AppCompat.TextView.SpinnerItem"/>
+                    <TextView
+                            android:id="@+id/numero15"
+                            android:text="Fone: (87) 3762-2089"
+                            android:textSize="18dp"
+                            android:textColor="@color/white"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="5dp"
+                            android:bufferType="normal"
+                            style="@style/Widget.AppCompat.TextView.SpinnerItem"/>
+                    <TextView
+                            android:id="@+id/local15"
+                            android:text="Av. Djalma Dutra, 29, Garanhuns"
+                            android:textSize="18dp"
+                            android:textColor="@color/white"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="5dp"
+                            style="@style/Widget.AppCompat.TextView.SpinnerItem"/>
+                </LinearLayout>
+            </androidx.cardview.widget.CardView>
+
+            <androidx.cardview.widget.CardView
+                    android:layout_width="match_parent"
+                    android:layout_height="100dp"
+                    android:layout_marginTop="20dp"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginRight="10dp"
+                    app:cardBackgroundColor="#42A2F6"
+                    app:cardCornerRadius="30dp"
+                    app:contentPadding="5dp" >
+
+                <LinearLayout
+                        android:orientation="vertical"
+                        android:layout_width="369dp"
+                        android:layout_height="89dp"
+                        android:layout_marginLeft="5dp"
+                        android:background="#42A2F6">
+                    <TextView
+                            android:id="@+id/nome16"
+                            android:text="Centro Médico Dra Maria de Fátima Lopes"
+                            android:textSize="18dp"
+                            android:textColor="@color/white"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="5dp"
+                            style="@style/Widget.AppCompat.TextView.SpinnerItem"/>
+                    <TextView
+                            android:id="@+id/numero16"
+                            android:text="Fone: (87) 3761-1909"
+                            android:textSize="18dp"
+                            android:textColor="@color/white"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="5dp"
+                            android:bufferType="normal"
+                            style="@style/Widget.AppCompat.TextView.SpinnerItem"/>
+                    <TextView
+                            android:id="@+id/local16"
+                            android:text="Av. Frei Caneca, 22 - Heliópolis, Garanhuns"
+                            android:textSize="18dp"
+                            android:textColor="@color/white"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="5dp"
+                            style="@style/Widget.AppCompat.TextView.SpinnerItem"/>
+                </LinearLayout>
+            </androidx.cardview.widget.CardView>
+
+            <androidx.cardview.widget.CardView
+                    android:layout_width="match_parent"
+                    android:layout_height="100dp"
+                    android:layout_marginTop="20dp"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginRight="10dp"
+                    app:cardBackgroundColor="#42A2F6"
+                    app:cardCornerRadius="30dp"
+                    app:contentPadding="5dp" >
+
+                <LinearLayout
+                        android:orientation="vertical"
+                        android:layout_width="369dp"
+                        android:layout_height="89dp"
+                        android:layout_marginLeft="5dp"
+                        android:background="#42A2F6">
+                    <TextView
+                            android:id="@+id/nome17"
+                            android:text="Clínica AMD"
+                            android:textSize="18dp"
+                            android:textColor="@color/white"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="5dp"
+                            style="@style/Widget.AppCompat.TextView.SpinnerItem"/>
+                    <TextView
+                            android:id="@+id/numero17"
+                            android:text="Fone: (81) 9345-2325"
+                            android:textSize="18dp"
+                            android:textColor="@color/white"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="5dp"
+                            android:bufferType="normal"
+                            style="@style/Widget.AppCompat.TextView.SpinnerItem"/>
+                    <TextView
+                            android:id="@+id/local17"
+                            android:text="Praça 18-Copacabana, 132, São Bento"
+                            android:textSize="18dp"
+                            android:textColor="@color/white"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="5dp"
+                            style="@style/Widget.AppCompat.TextView.SpinnerItem"/>
+                </LinearLayout>
+            </androidx.cardview.widget.CardView>
+
+            <androidx.cardview.widget.CardView
+                    android:layout_width="match_parent"
+                    android:layout_height="100dp"
+                    android:layout_marginTop="20dp"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginRight="10dp"
+                    android:layout_marginBottom="30dp"
+                    app:cardBackgroundColor="#42A2F6"
+                    app:cardCornerRadius="30dp"
+                    app:contentPadding="5dp" >
+
+                <LinearLayout
+                        android:orientation="vertical"
+                        android:layout_width="369dp"
+                        android:layout_height="89dp"
+                        android:layout_marginLeft="5dp"
+                        android:background="#42A2F6">
+                    <TextView
+                            android:id="@+id/nome18"
+                            android:text="UBS - Unidade Básica de Saúde"
+                            android:textSize="18dp"
+                            android:textColor="@color/white"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="5dp"
+                            style="@style/Widget.AppCompat.TextView.SpinnerItem"/>
+                    <TextView
+                            android:id="@+id/numero18"
+                            android:text="Fone: "
+                            android:textSize="18dp"
+                            android:textColor="@color/white"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="5dp"
+                            android:bufferType="normal"
+                            style="@style/Widget.AppCompat.TextView.SpinnerItem"/>
+                    <TextView
+                            android:id="@+id/local18"
+                            android:text="Av 21 de dezembro, Capoeiras"
+                            android:textSize="18dp"
+                            android:textColor="@color/white"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="5dp"
+                            style="@style/Widget.AppCompat.TextView.SpinnerItem"/>
+                </LinearLayout>
+            </androidx.cardview.widget.CardView>
+
+
+        </LinearLayout>
+    </ScrollView>
+</androidx.constraintlayout.widget.ConstraintLayout>
